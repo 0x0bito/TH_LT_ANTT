@@ -1,1 +1,0 @@
-from securelogger.logger import get_secure_logger
