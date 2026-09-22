@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+secure.log
+secure.log.sig
+secure.log.*.gz
+gitsecure.log
