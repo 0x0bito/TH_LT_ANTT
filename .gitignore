@@ -5,3 +5,6 @@ secure.log
 secure.log.sig
 secure.log.*.gz
 gitsecure.log
+buoi2/Lab02/mini-ca/certs/*_key.pem
+buoi2/Lab01/crypto-toolkit/files/*.enc
+buoi2/Lab01/crypto-toolkit/files/*.dec
