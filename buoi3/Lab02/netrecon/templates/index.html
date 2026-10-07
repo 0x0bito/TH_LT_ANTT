@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<form method="post" action="/scan">
+    <label>Target IP:</label>
+    <input type="text" name="target" placeholder="192.168.1.1" required>
+
+    <label>Ports (comma-separated):</label>
+    <input type="text" name="ports" value="22,80,443">
+
+    <label>Mode:</label>
+    <select name="mode">
+        <option value="all">All</option>
+        <option value="scan">Port Scan</option>
+        <option value="service">Service Detection</option>
+        <option value="banner">Banner Grab</option>
+        <option value="map">Network Map</option>
+        <option value="vuln">Vulnerability Check</option>
+    </select>
+
+    <label>Email nhận kết quả:</label>
+    <input type="email" name="email" placeholder="you@example.com" required>
+
+    <button type="submit">Scan</button>
+</form>
+
+<div id="results"></div>
+{% endblock %}

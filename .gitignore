@@ -8,3 +8,10 @@ gitsecure.log
 buoi2/Lab02/mini-ca/certs/*_key.pem
 buoi2/Lab01/crypto-toolkit/files/*.enc
 buoi2/Lab01/crypto-toolkit/files/*.dec
+buoi3/Lab01/secure-chat/certs/ca/*.key
+buoi3/Lab01/secure-chat/certs/server/*.key
+buoi3/Lab01/secure-chat/certs/client/*.key
+buoi3/Lab01/secure-chat/certs/**/*.srl
+buoi3/Lab01/secure-chat/certs/**/*.csr
+buoi3/Lab02/netrecon/.env
+netrecon.log
